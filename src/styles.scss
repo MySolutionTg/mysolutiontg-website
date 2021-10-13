@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  font-family: 'Quicksand', "Arial", sans-serif;
+}
+
+$primaryColor: "#20A39E";
+$textColor: "#000F08";
+$whiteColor: "#FFFFFF";
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #000F08;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #20A39E;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #20A39E;
+}
+.wrapper {
+  position: relative;
+  margin-left: 22vw;
+}
