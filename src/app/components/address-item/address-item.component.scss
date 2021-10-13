@@ -1,0 +1,25 @@
+.col-md-2 {
+  padding: 0;
+}
+.address {
+  position: relative;
+  margin-inline: 10px;
+  margin-inline-end: 15px;
+  margin-block: 10px;
+  margin-block-end: 20px;
+
+  & .address-card {
+    background-color: rgba(243, 243, 243, .7);
+    i{
+      color: #20A39E;
+      margin: 25px;
+    }
+  }
+  & .address-text {
+    p {
+      color: #20A39E;
+      margin-block: 25px;
+      margin-inline: 10px;
+    }
+  }
+}

@@ -31,7 +31,13 @@ $whiteColor: "#FFFFFF";
 ::-webkit-scrollbar-thumb:hover {
   background: #20A39E;
 }
+
 .wrapper {
   position: relative;
   margin-left: 22vw;
+
+  .wrapper-content {
+    width: 100%;
+    padding: 50px;
+  }
 }

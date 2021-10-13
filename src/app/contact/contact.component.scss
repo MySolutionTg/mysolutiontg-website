@@ -1,0 +1,18 @@
+.address {
+  position: relative;
+
+  & .address-card {
+    background-color: rgba(243, 243, 243, .7);
+    i{
+      color: #20A39E;
+      margin: 25px;
+    }
+  }
+  & .address-text {
+    p {
+      color: #20A39E;
+      margin-block: 25px;
+      margin-inline: 10px;
+    }
+  }
+}
