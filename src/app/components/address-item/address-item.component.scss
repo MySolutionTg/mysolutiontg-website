@@ -9,10 +9,16 @@
   margin-block-end: 20px;
 
   & .address-card {
-    background-color: rgba(243, 243, 243, .7);
+    background-color: #f0f0f0;
+    width: 89px;
+    height: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     i{
       color: #20A39E;
-      margin: 25px;
+      //margin: 25px;
     }
   }
   & .address-text {

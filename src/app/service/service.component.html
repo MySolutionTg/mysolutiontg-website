@@ -1,5 +1,36 @@
 <section class="wrapper-content">
   <app-heading [name]="'VOICI CERTAINES DE NOS EXPERTISES'" [description]="'PRESTATIONS DE SERVICE'"></app-heading>
 
-  <p>service works!</p>
+  <div class="row">
+    <div class="col-md-6">
+      <app-service-details-card [icon]="'fa-code'" [title]="'Développement d\'application'"
+                                [description]="'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'">
+      </app-service-details-card>
+    </div>
+    <div class="col-md-6">
+      <app-service-details-card [icon]="'fa-browser'" [title]="'Internet pour tous'"
+                                [description]="'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'">
+      </app-service-details-card>
+    </div>
+    <div class="col-md-6">
+      <app-service-details-card [icon]="'fa-laptop-code'" [title]="'Maintenance Laptop'"
+                                [description]="'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'">
+      </app-service-details-card>
+    </div>
+    <div class="col-md-6">
+      <app-service-details-card [icon]="'fa-code-branch'" [title]="'Coworking'"
+                                [description]="'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'">
+      </app-service-details-card>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <app-service-image-card></app-service-image-card>
+    </div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4"></div>
+  </div>
 </section>
+<app-get-contact></app-get-contact>

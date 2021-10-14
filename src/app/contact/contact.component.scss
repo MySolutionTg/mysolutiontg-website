@@ -1,18 +1,41 @@
-.address {
-  position: relative;
+.form-contact {
 
-  & .address-card {
-    background-color: rgba(243, 243, 243, .7);
-    i{
-      color: #20A39E;
-      margin: 25px;
+  .form-input {
+    width: 100%;
+    height: 55px;
+    border: transparent;
+    outline: none;
+    background-color: rgba(#FAFAFA, 1);
+    font-size: 16px;
+    font-weight: 400;
+    transition: .3s;
+    line-height: 1.42857;
+    color: #000F08;
+    padding-block: 10px;
+    padding-inline: 20px;
+
+    &:focus {
+      background-color: #f0f0f0;
     }
   }
-  & .address-text {
-    p {
-      color: #20A39E;
-      margin-block: 25px;
-      margin-inline: 10px;
-    }
+  textarea.form-input {
+    min-height: 140px;
   }
+
+  button.btn-contact {
+    background-color: #20A39E;
+    color: #FFFFFF;
+    border-radius: 2px;
+
+    padding: 8px 15px!important;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: .5s;
+    border: 2px solid #20A39E;
+  }
+}
+.map-area iframe{
+  width: 100%;
+  height: 500px;
 }

@@ -11,6 +11,9 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeadingComponent } from './components/heading/heading.component';
 import { AddressItemComponent } from './components/address-item/address-item.component';
+import { GetContactComponent } from './components/get-contact/get-contact.component';
+import { ServiceDetailsCardComponent } from './components/service-details-card/service-details-card.component';
+import { ServiceImageCardComponent } from './components/service-image-card/service-image-card.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { AddressItemComponent } from './components/address-item/address-item.com
     AboutComponent,
     ContactComponent,
     HeadingComponent,
-    AddressItemComponent
+    AddressItemComponent,
+    GetContactComponent,
+    ServiceDetailsCardComponent,
+    ServiceImageCardComponent
   ],
   imports: [
     BrowserModule,
