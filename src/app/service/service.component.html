@@ -1,7 +1,7 @@
 <section class="wrapper-content">
   <app-heading [name]="'VOICI CERTAINES DE NOS EXPERTISES'" [description]="'PRESTATIONS DE SERVICE'"></app-heading>
 
-  <div class="row">
+  <div class="row services">
     <div class="col-md-6">
       <app-service-details-card [icon]="'fa-code'" [title]="'Développement d\'application'"
                                 [description]="'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'">
@@ -25,12 +25,31 @@
   </div>
   <div class="row">
     <div class="col-md-4">
-      <app-service-image-card></app-service-image-card>
+      <app-service-image-card [title]="'Design & BUild'"
+                              [image]="'green-chameleon-WvuTnXz1hSc-unsplash.jpg'">
+      </app-service-image-card>
     </div>
-    <div class="col-md-4"></div>
-    <div class="col-md-4"></div>
-    <div class="col-md-4"></div>
-    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <app-service-image-card [title]="'House Remodeling'"
+                              [image]="'hello-i-m-nik-73_kRzs9sqo-unsplash.jpg'">
+      </app-service-image-card>
+    </div>
+    <div class="col-md-4">
+      <app-service-image-card [title]="'Construction management'"
+                              [image]="'ildefonso-polo-DX9X0g0Cg88-unsplash.jpg'">
+      </app-service-image-card>
+    </div>
+    <div class="col-md-4">
+      <app-service-image-card [title]="'Tiling & Painting'"
+                              [image]="'bermix-studio-P_Hob0Z-1bs-unsplash.jpg'">
+      </app-service-image-card>
+    </div>
+    <div class="col-md-4">
+      <app-service-image-card [title]="'Kitchen Remodeling'"
+                              [image]="'george-kroeker-96bacP6Vba8-unsplash.jpg'">
+      </app-service-image-card>
+    </div>
   </div>
 </section>
 <app-get-contact></app-get-contact>
+<!--<img src="./assets/images/ildefonso-polo-DX9X0g0Cg88-unsplash.jpg" alt="">-->

@@ -14,6 +14,7 @@ import { AddressItemComponent } from './components/address-item/address-item.com
 import { GetContactComponent } from './components/get-contact/get-contact.component';
 import { ServiceDetailsCardComponent } from './components/service-details-card/service-details-card.component';
 import { ServiceImageCardComponent } from './components/service-image-card/service-image-card.component';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ServiceImageCardComponent } from './components/service-image-card/servi
     AddressItemComponent,
     GetContactComponent,
     ServiceDetailsCardComponent,
-    ServiceImageCardComponent
+    ServiceImageCardComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,

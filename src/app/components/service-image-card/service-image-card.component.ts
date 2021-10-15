@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-service-image-card',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./service-image-card.component.scss']
 })
 export class ServiceImageCardComponent implements OnInit {
+  @Input("image") image!: String;
+  @Input("title") title!: String;
 
   constructor() { }
 
