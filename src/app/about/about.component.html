@@ -1,6 +1,81 @@
 <section class="wrapper-content">
-  <app-heading [name]="'QUI NOUS SOMMES'" [description]="'Bienvenue'"></app-heading>
-
-  <p>about works!</p>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card-img animate__animated animate__fadeInLeft">
+        <img src="./assets/images/domenico-loia-EhTcC9sYXsw-unsplash.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-md-6" style="padding-left: 30px">
+      <app-heading [name]="'QUI NOUS SOMMES'" [description]="'Bienvenue'"></app-heading>
+      <div class="description animate__animated animate__fadeInLeft">
+        <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been
+          rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little
+          Blind Text should turn around and return to its own, safe country.
+        </p>
+        <p>
+          A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
+          paradisematic country, in which roasted parts of sentences fly into your mouth.
+        </p>
+      </div>
+      <div class="row steps-row">
+        <div class="col-md-4 animate__animated animate__fadeInLeft">
+          <a href="javascript:void(0);" class="steps">
+            <p class="icon">
+              <span>
+                <i class="fas fa-check"></i>
+              </span>
+            </p>
+            <h3>
+              We are <br> Pasionate
+            </h3>
+          </a>
+        </div>
+        <div class="col-md-4 animate__animated animate__fadeInLeft">
+          <a href="javascript:void(0);" class="steps">
+            <p class="icon">
+              <span>
+                <i class="fas fa-check"></i>
+              </span>
+            </p>
+            <h3>
+              Honest <br> Dependable
+            </h3>
+          </a>
+        </div>
+        <div class="col-md-4 animate__animated animate__fadeInLeft">
+          <a href="javascript:void(0);" class="steps">
+            <p class="icon">
+              <span>
+                <i class="fas fa-check"></i>
+              </span>
+            </p>
+            <h3>
+              Always <br> Improving
+            </h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skills" style="background-image: url('./assets/images/dayne-topkin-8zt45T-7G6w-unsplash.jpg');">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 text-center animate__animated animate__fadeInLeft">
+        <app-skill-item [icon]="'fa-code'" [content]="1539" [title]="'PROJECTS'"></app-skill-item>
+      </div>
+      <div class="col-md-3 text-center animate__animated animate__fadeInLeft">
+        <app-skill-item [icon]="'fa-laptop-code'" [content]="3653" [title]="'EMPLOYEES'"></app-skill-item>
+      </div>
+      <div class="col-md-3 text-center animate__animated animate__fadeInLeft">
+        <app-skill-item [icon]="'fa-browser'" [content]="5987" [title]="'CONSTRUCTOR'"></app-skill-item>
+      </div>
+      <div class="col-md-3 text-center animate__animated animate__fadeInLeft">
+        <app-skill-item [icon]="'fa-code-branch'" [content]="3999" [title]="'PARTNERS'"></app-skill-item>
+      </div>
+      <i class="fa-html5"></i>
+    </div>
+  </div>
 </section>
 <app-get-contact></app-get-contact>

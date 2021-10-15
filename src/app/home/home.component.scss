@@ -56,3 +56,17 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    .carousel-inner .carousel-item {
+      display: table;
+
+      .carousel-description {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100vw !important;
+      }
+    }
+  }
+}

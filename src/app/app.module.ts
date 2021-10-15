@@ -15,6 +15,7 @@ import { GetContactComponent } from './components/get-contact/get-contact.compon
 import { ServiceDetailsCardComponent } from './components/service-details-card/service-details-card.component';
 import { ServiceImageCardComponent } from './components/service-image-card/service-image-card.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
+import { SkillItemComponent } from './components/skill-item/skill-item.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
     GetContactComponent,
     ServiceDetailsCardComponent,
     ServiceImageCardComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    SkillItemComponent
   ],
   imports: [
     BrowserModule,

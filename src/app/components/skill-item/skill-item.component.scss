@@ -1,0 +1,44 @@
+
+span {
+  display: block;
+
+  i {
+    color: #20A39E;
+  }
+
+  &.icon {
+    height: 100px;
+    width: 100px;
+    display: table;
+    margin: 0 auto;
+    margin-block-end: 20px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    z-index: 1;
+
+    i {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+
+  &.counter {
+    font-size: 40px;
+    color: #fff;
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: .3em;
+  }
+
+  &.counter-label {
+    color: rgba(#FFFFFF, .7);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-bottom: 2em;
+  }
+}
+
+
+
+
