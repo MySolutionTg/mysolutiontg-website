@@ -1,14 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-@import "~bootstrap/scss/bootstrap";
+@import '~bootstrap/scss/bootstrap';
 
 * {
   font-family: 'Quicksand', "Arial", sans-serif;
 }
 
-$primaryColor: "#20A39E";
-$textColor: "#000F08";
-$whiteColor: "#FFFFFF";
+$primaryColor: #20A39E;
+$textColor: #000F08;
+$whiteColor: #FFFFFF;
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -41,9 +42,48 @@ $whiteColor: "#FFFFFF";
     padding: 50px;
   }
 }
-@media screen and (max-width: 768px) {
+//@media (max-width: 768px) {
+//  .wrapper {
+//    margin-left: 80vw;
+//  }
+//}
+//@media (max-width: 1024px) {
+//  .wrapper {
+//    margin-left: 50vw;
+//  }
+//}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
   .wrapper {
-    position: relative;
-    margin-left: 0;
+    margin-left: 50vw;
   }
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    margin-left: 50vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .wrapper {
+    margin-left: 50vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+//@media only screen and (min-width: 1200px) {
+//  .wrapper {
+//    margin-left: 50vw;
+//  }
+//}
+
+@media only screen and (max-width: 1240px) {
+  .wrapper {
+    margin-left: 50vw;
+  }
+}
+

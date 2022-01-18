@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "d3c3270f-980b-425b-abd6-879fa86a4c49"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -31,7 +34,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/scss/auth.scss",
+              "src/assets/scss/admin.scss"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.js",

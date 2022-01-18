@@ -1,0 +1,5 @@
+<app-navbar [hidden]="sidebarOpening"></app-navbar>
+<main class="wrapper">
+  <app-menu-bars (collapse)="collapseBar()"></app-menu-bars>
+  <router-outlet></router-outlet>
+</main>
